@@ -21,7 +21,7 @@ def calculate_average_salary(df, location, employment_status, job_role):
     return average_salary
 
 # Load your dataframe here, assuming it's named df
-df = pd.read_csv('your_data.csv')
+df = pd.read_csv('cleaned_salary_dataset.csv')
 
 # Define Streamlit app function
 def main():
